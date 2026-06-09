@@ -6,9 +6,13 @@
 Applications
 
  •	Poultry farms
+ 
  •	Chicken hatcheries
+ 
  •	Broiler farming
+ 
  •	Layer farms
+ 
  •	Livestock monitoring systems 
 
 Components
