@@ -27,7 +27,7 @@ Temperature and humidity readings
 | ---------------- | ------------ | -------------------------- |
 | 25°C             | 50%          | Normal                     |
 | 28°C             | 60%          | Good                       |
-| 30°C             | 65%          | Ideal for young chicks     |
+| 30°C             | 65%          | High Temperature Aler      |
 
 circuit diagram
 
