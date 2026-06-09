@@ -37,4 +37,4 @@ circuit diagram
 
 How smart-poultry-monitoring-system work on wokwi
 
-https://wokwi.com/projects/466171334391611393
+https://wokwi.com/projects/466338553302980609
