@@ -33,3 +33,8 @@ circuit diagram
 
 
 <img width="532" height="335" alt="Screenshot 2026-06-09 124001" src="https://github.com/user-attachments/assets/17ddf84c-6696-4a7d-9b98-b56b55e8458e" />
+
+
+link of smart-poultry-monitoring-system
+
+https://wokwi.com/projects/466171334391611393
