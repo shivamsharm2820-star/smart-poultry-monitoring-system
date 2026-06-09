@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "author": "shivam sharma",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -153.3,
+      "left": -178.2,
+      "attrs": { "temperature": "53.3", "humidity": "33.5" }
+    },
+    { "type": "wokwi-relay-module", "id": "relay1", "top": -38.2, "left": 451.2, "attrs": {} },
+    { "type": "wokwi-dc-motor", "id": "motor1", "top": -20, "left": 420, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 226.8,
+      "left": 99.8,
+      "attrs": { "color": "green" }
+    },
+    { "type": "wokwi-resistor", "id": "r1", "top": 180, "left": 40, "attrs": { "value": "220" } },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -141.6,
+      "left": 165,
+      "attrs": { "volume": "0.1" }
+    }
+  ],
+  "connections": [
+    [ "uno:5V", "dht1:VCC", "red", [] ],
+    [ "uno:GND.1", "dht1:GND", "black", [ "v-28.2", "h-249.9" ] ],
+    [ "uno:2", "dht1:SDA", "green", [] ],
+    [ "uno:5V", "relay1:VCC", "red", [] ],
+    [ "uno:GND.2", "relay1:GND", "black", [] ],
+    [ "uno:8", "relay1:IN", "purple", [] ],
+    [ "uno:13", "r1:1", "green", [] ],
+    [ "r1:2", "led1:A", "green", [ "h45.2", "v83.15" ] ],
+    [ "led1:C", "uno:GND.1", "black", [ "h-18.8", "v9.6", "v-269.4" ] ],
+    [ "relay1:COM", "uno:5V", "red", [] ],
+    [ "relay1:NO", "motor1:1", "blue", [] ],
+    [ "motor1:2", "uno:GND.2", "black", [] ],
+    [ "uno:7", "bz1:2", "green", [ "v-57", "h13" ] ],
+    [ "uno:GND.2", "bz1:1", "black", [ "v-95.5", "h-15.9" ] ]
+  ],
+  "dependencies": {}
+}
