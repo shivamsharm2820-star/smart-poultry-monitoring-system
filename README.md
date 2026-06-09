@@ -28,6 +28,3 @@ Temperature and humidity readings
 project code
 
 
-
-
-
