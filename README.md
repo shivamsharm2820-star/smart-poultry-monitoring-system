@@ -27,7 +27,6 @@ Temperature and humidity readings
 
 project code
 
-#include <DHT.h>
 
 
 
